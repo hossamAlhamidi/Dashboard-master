@@ -102,11 +102,13 @@ const pieData = {
 const pieConfig = {
   type: 'pie',
   data: pieData,
-//   options : {
-//     responsive:true,
-//     maintainAspectRatio:false,
+  
+  options : {
+    responsive:false,
+    // maintainAspectRatio:false,
+    // aspectRatio: 1
     
-//     }
+    }
 };
 const myPieChart = new Chart(citiesChart,pieConfig)
 
@@ -148,7 +150,7 @@ const lineConfig = {
     type: 'line',
     data: lineData,
     options: {
-       
+      responsive: false,
         legend: {
         display: false,
     }
