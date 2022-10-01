@@ -18,8 +18,8 @@ Simple responsive front-end dashboard. This dashboard uses the Bootstrap styles 
 - Home Page
 <img src="img/screen1.png">
 
-- Products Page
-<img src="img/screen2.jpg">
+#### deployment link
+https://hossamdev-dashboard.netlify.app/
 
 
 
